@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: extension
+  description: |
+    No description provided
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Meeranmk/extension
+  links:
+    - title: Repository
+      url: https://github.com/Meeranmk/extension
+spec:
+  type: service
+  lifecycle: production
+  owner: user:Meeranmk
